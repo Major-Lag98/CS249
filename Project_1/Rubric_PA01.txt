@@ -1,0 +1,33 @@
+Rubric - PA01
+
+Program Operations: /6
+=======================
+Program builds correctly, no errors or warnings: /4
+Program runs correctly: /2
+
+functions, etc. /49
+=============
+
+copyArray  /7
+
+displaySet  /7
+
+findIntersection  /7
+
+findUnion  /7
+
+initializeSetArray  /7
+
+isInSet  /7
+
+isSubSetOf  /7
+
+All other specifications followed: /7
+=====================================
+- correct file upload
+- correct method names, variable names, etc.
+- appropriate use of constant values
+
+General Usage Rubric reductions
+===============================
+- see GUR document

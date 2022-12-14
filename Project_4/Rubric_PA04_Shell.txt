@@ -1,0 +1,20 @@
+Rubric - PA04
+
+Program Operations: +3
+======================
+Program builds correctly, no errors or warnings: /3
+
+Recursive method developed correctly: +52
+=============================================
+
+- Grading specifications
+
+All other specifications followed: +5
+=====================================
+- correct file upload
+- correct method names, variable names, etc.
+- appropriate use of constant (final) value
+
+General Usage Rubric reductions
+===============================
+see GUR document

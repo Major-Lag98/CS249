@@ -1,0 +1,62 @@
+Rubric - PA08
+
+Program Operations: +5
+======================
+Program builds correctly, no errors or warnings: /3
+Program runs correctly:  /2
+
+Queue Operations:  /60
+=============================================
+
+clearTree  /3
+
+compareRoomNumbers  /3
+
+copyTree  /3
+
+copyString  /3
+
+createTreeNodeFromData  /3
+
+createTreeNodeFromNode  /3
+
+displayInOrder  /3
+
+displayPostOrder  /3
+
+displayPreOrder  /3
+
+getStringLength  /3
+
+getStringLengthHelper  /3
+
+initializeBST  /3
+
+insert  /3
+
+isDigit  /3
+[one line of code]
+
+isEmpty  /3
+[one line of code]
+
+removeFromMin  /3
+
+removeItem  /3
+
+removeItemHelper  /3
+
+search  /3
+
+setTreeNodeData  /3
+
+All other specifications followed: +5
+=====================================
+- correct file upload
+- correct method names, variable names, etc.
+- appropriate use of constant value
+
+General Usage Rubric reductions
+===============================
+see GUR document
+

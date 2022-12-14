@@ -1,0 +1,24 @@
+/*
+Name: createQueueStringArray
+Process: dynamically creates array of strings (2D array of chars)
+Function input/parameters: number of strings (int)
+Function output/parameters: none
+Function output/returned: dynamically allocated array of strings (char **)
+Device input/---: none
+Device output/---: none
+Dependencies: malloc
+*/
+char **createQueueStringArray( int numStrings )
+   {
+    int index;
+    char **newArrPtr;
+    
+    newArrPtr = (char **)malloc( numStrings * sizeof( char * ) );
+
+    for( index = 0; index < numStrings; index++ )
+       {
+        newArrPtr[ index ] = (char *)malloc( STD_STR_LEN * sizeof( char ) );
+       }
+
+    return newArrPtr;
+   }

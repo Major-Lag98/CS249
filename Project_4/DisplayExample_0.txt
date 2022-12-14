@@ -1,0 +1,83 @@
+Number Path Game
+================
+
+Enter file name         : DataSet_0.txt
+Enter desired sum value : 896
+
+Input Verification Array Dump:
+  149,   125,   192
+  147,   129,   154
+  167,   188,   151
+
+Search for sum 896, start:
+
+Trying Location: (0, 0)
+Valid Location found:  (0, 0)=> 149
+   Trying Location: (1, 0)
+   Valid Location found:  (0, 1)=> 125
+      Trying Location: (2, 0)
+      Valid Location found:  (0, 2)=> 192
+         Trying Location: (3, 0)
+         Location failed: Location Not Found
+         Trying Location: (2, 1)
+         Valid Location found:  (1, 2)=> 154
+            Trying Location: (3, 1)
+            Location failed: Location Not Found
+            Trying Location: (2, 2)
+            Valid Location found:  (2, 2)=> 151
+               Trying Location: (3, 2)
+               Location failed: Location Not Found
+               Trying Location: (2, 3)
+               Location failed: Location Not Found
+               Trying Location: (1, 2)
+               Location failed: Over Requested Sum
+            Location failed: Doesn't Support Solution
+            Trying Location: (1, 1)
+            Valid Location found:  (1, 1)=> 129
+               Trying Location: (2, 1)
+               Location failed: Already In Set
+               Trying Location: (1, 2)
+               Location failed: Over Requested Sum
+               Trying Location: (0, 1)
+               Valid Location found:  (1, 0)=> 147
+                  Trying Location: (1, 1)
+                  Location failed: Already In Set
+                  Trying Location: (0, 2)
+                  Location failed: Over Requested Sum
+                  Trying Location: (-1, 1)
+                  Location failed: Location Not Found
+               Location failed: Doesn't Support Solution
+            Location failed: Doesn't Support Solution
+         Location failed: Doesn't Support Solution
+         Trying Location: (1, 0)
+         Location failed: Already In Set
+      Location failed: Doesn't Support Solution
+      Trying Location: (1, 1)
+      Valid Location found:  (1, 1)=> 129
+         Trying Location: (2, 1)
+         Valid Location found:  (1, 2)=> 154
+            Trying Location: (3, 1)
+            Location failed: Location Not Found
+            Trying Location: (2, 2)
+            Valid Location found:  (2, 2)=> 151
+               Trying Location: (3, 2)
+               Location failed: Location Not Found
+               Trying Location: (2, 3)
+               Location failed: Location Not Found
+               Trying Location: (1, 2)
+               Valid Location found:  (2, 1)=> 188
+            Found at:  (2, 2)=> 151
+         Found at:  (1, 2)=> 154
+      Found at:  (1, 1)=> 129
+   Found at:  (0, 1)=> 125
+Found at:  (0, 0)=> 149
+
+
+Search End => Successful Set: (0, 0)=> 149, (0, 1)=> 125, (1, 1)=> 129, (1, 2)=> 154, (2, 2)=> 151
+                              (2, 1)=> 188
+
+Sum Verified   : 896
+
+Iteration Count: 25
+
+End Program

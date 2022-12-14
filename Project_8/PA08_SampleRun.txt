@@ -1,0 +1,143 @@
+Binary Search Tree Test Program
+===============================
+
+In order traversal:
+018-111: Liberal Arts Building, Room 111A
+018-321: Liberal Arts Building, Room 321
+021-200: Biological Sciences Building, Room 200
+025-4106: Health and Learning Center, Room 4106
+025-4108: Health and Learning Center, Room 4108
+027-208: Eastburn Education Building, Room 208
+047-135: ROTC Building, Room 135
+066-316: Health Professions Building, Room 316
+069-224: Engineering Building, Room 224
+081-110: W. A. Franke College of Business, Room 110
+082-135: Southwest Forest Science Complex, Room 135
+
+Post order traversal:
+018-111: Liberal Arts Building, Room 111A
+021-200: Biological Sciences Building, Room 200
+018-321: Liberal Arts Building, Room 321
+027-208: Eastburn Education Building, Room 208
+047-135: ROTC Building, Room 135
+069-224: Engineering Building, Room 224
+082-135: Southwest Forest Science Complex, Room 135
+081-110: W. A. Franke College of Business, Room 110
+066-316: Health Professions Building, Room 316
+025-4108: Health and Learning Center, Room 4108
+025-4106: Health and Learning Center, Room 4106
+
+Pre order traversal:
+025-4106: Health and Learning Center, Room 4106
+018-321: Liberal Arts Building, Room 321
+018-111: Liberal Arts Building, Room 111A
+021-200: Biological Sciences Building, Room 200
+025-4108: Health and Learning Center, Room 4108
+066-316: Health Professions Building, Room 316
+047-135: ROTC Building, Room 135
+027-208: Eastburn Education Building, Room 208
+081-110: W. A. Franke College of Business, Room 110
+069-224: Engineering Building, Room 224
+082-135: Southwest Forest Science Complex, Room 135
+
+Creating duplicate tree
+
+Inorder Display of copied tree:
+018-111: Liberal Arts Building, Room 111A
+018-321: Liberal Arts Building, Room 321
+021-200: Biological Sciences Building, Room 200
+025-4106: Health and Learning Center, Room 4106
+025-4108: Health and Learning Center, Room 4108
+027-208: Eastburn Education Building, Room 208
+047-135: ROTC Building, Room 135
+066-316: Health Professions Building, Room 316
+069-224: Engineering Building, Room 224
+081-110: W. A. Franke College of Business, Room 110
+082-135: Southwest Forest Science Complex, Room 135
+
+Removing 025-4106
+Removed from Tree - Room Number: 025-4106, Building/Room: Health and Learning Center, Room 4106, Class Setup: Traditional Classroom, Room Capacity: 36
+
+Inorder Display:
+018-111: Liberal Arts Building, Room 111A
+018-321: Liberal Arts Building, Room 321
+021-200: Biological Sciences Building, Room 200
+025-4108: Health and Learning Center, Room 4108
+027-208: Eastburn Education Building, Room 208
+047-135: ROTC Building, Room 135
+066-316: Health Professions Building, Room 316
+069-224: Engineering Building, Room 224
+081-110: W. A. Franke College of Business, Room 110
+082-135: Southwest Forest Science Complex, Room 135
+
+Removing 066-316
+calling remove from min
+Removed from Tree - Room Number: 066-316, Building/Room: Health Professions Building, Room 316, Class Setup: Traditional Classroom, Room Capacity: 30
+
+Inorder Display:
+018-111: Liberal Arts Building, Room 111A
+018-321: Liberal Arts Building, Room 321
+021-200: Biological Sciences Building, Room 200
+025-4108: Health and Learning Center, Room 4108
+027-208: Eastburn Education Building, Room 208
+047-135: ROTC Building, Room 135
+069-224: Engineering Building, Room 224
+081-110: W. A. Franke College of Business, Room 110
+082-135: Southwest Forest Science Complex, Room 135
+
+Removing 047-135
+Removed from Tree - Room Number: 047-135, Building/Room: ROTC Building, Room 135, Class Setup: Construction, Room Capacity: 24
+
+Inorder Display:
+018-111: Liberal Arts Building, Room 111A
+018-321: Liberal Arts Building, Room 321
+021-200: Biological Sciences Building, Room 200
+025-4108: Health and Learning Center, Room 4108
+027-208: Eastburn Education Building, Room 208
+069-224: Engineering Building, Room 224
+081-110: W. A. Franke College of Business, Room 110
+082-135: Southwest Forest Science Complex, Room 135
+
+Removing 081-110
+Removed from Tree - Room Number: 081-110, Building/Room: W. A. Franke College of Business, Room 110, Class Setup: Traditional Classroom, Room Capacity: 46
+
+Inorder Display:
+018-111: Liberal Arts Building, Room 111A
+018-321: Liberal Arts Building, Room 321
+021-200: Biological Sciences Building, Room 200
+025-4108: Health and Learning Center, Room 4108
+027-208: Eastburn Education Building, Room 208
+069-224: Engineering Building, Room 224
+082-135: Southwest Forest Science Complex, Room 135
+
+Removing 027-208
+Removed from Tree - Room Number: 027-208, Building/Room: Eastburn Education Building, Room 208, Class Setup: Traditional Classroom, Room Capacity: 28
+
+Inorder Display:
+018-111: Liberal Arts Building, Room 111A
+018-321: Liberal Arts Building, Room 321
+021-200: Biological Sciences Building, Room 200
+025-4108: Health and Learning Center, Room 4108
+069-224: Engineering Building, Room 224
+082-135: Southwest Forest Science Complex, Room 135
+
+Removing 082-135
+Removed from Tree - Room Number: 082-135, Building/Room: Southwest Forest Science Complex, Room 135, Class Setup: Traditional Classroom, Room Capacity: 28
+
+Inorder Display:
+018-111: Liberal Arts Building, Room 111A
+018-321: Liberal Arts Building, Room 321
+021-200: Biological Sciences Building, Room 200
+025-4108: Health and Learning Center, Room 4108
+069-224: Engineering Building, Room 224
+
+Removing 018-321
+Removed from Tree - Room Number: 018-321, Building/Room: Liberal Arts Building, Room 321, Class Setup: Traditional Classroom, Room Capacity: 48
+
+Inorder Display:
+018-111: Liberal Arts Building, Room 111A
+021-200: Biological Sciences Building, Room 200
+025-4108: Health and Learning Center, Room 4108
+069-224: Engineering Building, Room 224
+
+End Program

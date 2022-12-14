@@ -1,0 +1,343 @@
+HASH TABLE TEST PROGRAM
+=======================
+
+Indices probed: 44
+Massachusetts, Avg: 41.00, Low: -35.00, High: 107.00, 44 -> 44
+
+Indices probed: 61
+Rhode Island, Avg: 50.10, Low: -25.00, High: 104.00, 61 -> 61
+
+Indices probed: 9
+Wyoming, Avg: 42.00, Low: -66.00, High: 115.00, 9 -> 9
+
+Indices probed: 5
+New Mexico, Avg: 52.70, Low: -50.00, High: 122.00, 5 -> 5
+
+Indices probed: 0
+Tennessee, Avg: 57.60, Low: -32.00, High: 113.00, 0 -> 0
+
+Indices probed: 20
+South Dakota, Avg: 45.20, Low: -58.00, High: 120.00, 20 -> 20
+
+Indices probed: 22
+Indiana, Avg: 47.80, Low: -36.00, High: 116.00, 22 -> 22
+
+Indices probed: 16
+Arkansas, Avg: 60.30, Low: -29.00, High: 120.00, 16 -> 16
+
+Indices probed: 14
+Kansas, Avg: 54.30, Low: -40.00, High: 121.00, 14 -> 14
+
+Indices probed: 4
+Minnesota, Avg: 41.20, Low: -60.00, High: 114.00, 4 -> 4
+
+Indices probed: 12
+North Dakota, Avg: 40.40, Low: -60.00, High: 121.00, 12 -> 12
+
+Indices probed: 10
+Vermont, Avg: 42.90, Low: -50.00, High: 105.00, 10 -> 10
+
+Indices probed: 27
+Oregon, Avg: 48.40, Low: -54.00, High: 119.00, 27 -> 27
+
+Indices probed: 3
+West Virginia, Avg: 51.80, Low: -37.00, High: 112.00, 3 -> 3
+
+Indices probed: 48
+Montana, Avg: 42.70, Low: -70.00, High: 117.00, 48 -> 48
+
+Indices probed: 55
+Idaho, Avg: 51.80, Low: -60.00, High: 118.00, 55 -> 55
+
+Indices probed: 66
+Nevada, Avg: 53.40, Low: -50.00, High: 125.00, 66 -> 66
+
+Indices probed: 55, 56
+Missouri, Avg: 63.40, Low: -40.00, High: 118.00, 55 -> 56
+
+Indices probed: 30
+Utah, Avg: 48.60, Low: -69.00, High: 117.00, 30 -> 30
+
+Indices probed: 64
+Hawaii, Avg: 70.00, Low: 12.00, High: 100.00, 64 -> 64
+
+Indices probed: 32
+South Carolina, Avg: 62.40, Low: -19.00, High: 111.00, 32 -> 32
+
+Indices probed: 24
+North Carolina, Avg: 59.00, Low: -34.00, High: 110.00, 24 -> 24
+
+Indices probed: 61, 62
+Maine, Avg: 47.90, Low: -50.00, High: 105.00, 61 -> 62
+
+Indices probed: 32, 33
+Texas, Avg: 64.80, Low: -23.00, High: 120.00, 32 -> 33
+
+Indices probed: 42
+Kentucky, Avg: 55.60, Low: -37.00, High: 114.00, 42 -> 42
+
+Indices probed: 15
+Colorado, Avg: 45.10, Low: -61.00, High: 118.00, 15 -> 15
+
+Indices probed: 63
+Michigan, Avg: 44.40, Low: -51.00, High: 112.00, 63 -> 63
+
+Indices probed: 17
+Ohio, Avg: 50.70, Low: -39.00, High: 113.00, 17 -> 17
+
+Indices probed: 66, 0, 3, 8
+Pennsylvania, Avg: 48.80, Low: -42.00, High: 111.00, 66 -> 8
+
+Indices probed: 35
+Florida, Avg: 70.70, Low: -2.00, High: 109.00, 35 -> 35
+
+Indices probed: 62, 63, 66, 4, 11
+Louisiana, Avg: 66.40, Low: -16.00, High: 114.00, 62 -> 11
+
+Indices probed: 8, 9, 12, 17, 24, 33, 44, 57
+Oklahoma, Avg: 59.60, Low: -27.00, High: 120.00, 8 -> 57
+
+Indices probed: 42, 43
+Mississippi, Avg: 54.50, Low: -19.00, High: 115.00, 42 -> 43
+
+Indices probed: 18
+New Jersey, Avg: 43.80, Low: -34.00, High: 110.00, 18 -> 18
+
+Indices probed: 33, 34
+Iowa, Avg: 44.40, Low: -47.00, High: 118.00, 33 -> 34
+
+Indices probed: 14, 15, 18, 23
+New York, Avg: 45.40, Low: -52.00, High: 108.00, 14 -> 23
+
+Indices probed: 21
+Virginia, Avg: 55.10, Low: -30.00, High: 110.00, 21 -> 21
+
+Indices probed: 1
+Alabama, Avg: 26.60, Low: -27.00, High: 112.00, 1 -> 1
+
+Indices probed: 1, 2
+Delaware, Avg: 55.30, Low: -17.00, High: 110.00, 1 -> 2
+
+Indices probed: 19
+Wisconsin, Avg: 43.10, Low: -55.00, High: 114.00, 19 -> 19
+
+Indices probed: 53
+New Hampshire, Avg: 49.90, Low: -47.00, High: 106.00, 53 -> 53
+
+Indices probed: 31
+Illinois, Avg: 51.70, Low: -36.00, High: 117.00, 31 -> 31
+
+Indices probed: 54
+Arizona, Avg: 60.40, Low: -40.00, High: 128.00, 54 -> 54
+
+Indices probed: 20, 21, 24, 29
+Maryland, Avg: 54.20, Low: -40.00, High: 109.00, 20 -> 29
+
+Indices probed: 3, 4, 7
+Nebraska, Avg: 48.80, Low: -47.00, High: 118.00, 3 -> 7
+
+Indices probed: 11, 12, 15, 20, 27, 36
+California, Avg: 59.40, Low: -45.00, High: 134.00, 11 -> 36
+
+Indices probed: 53, 54, 57, 62, 2, 11, 22, 35, 50
+Washington, Avg: 48.30, Low: -48.00, High: 118.00, 53 -> 50
+
+Indices probed: 32, 33, 36, 41
+Georgia, Avg: 63.50, Low: -17.00, High: 112.00, 32 -> 41
+
+Indices probed: 12, 13
+Connecticut, Avg: 49.00, Low: -32.00, High: 106.00, 12 -> 13
+
+Indices probed: 51
+Alaska, Avg: 62.80, Low: -80.00, High: 100.00, 51 -> 51
+
+HASH TABLE ARRAY DUMP:
+  1) Tennessee, Avg: 57.60, Low: -32.00, High: 113.00
+  2) Alabama, Avg: 26.60, Low: -27.00, High: 112.00
+  3) Delaware, Avg: 55.30, Low: -17.00, High: 110.00
+  4) West Virginia, Avg: 51.80, Low: -37.00, High: 112.00
+  5) Minnesota, Avg: 41.20, Low: -60.00, High: 114.00
+  6) New Mexico, Avg: 52.70, Low: -50.00, High: 122.00
+  7) Unused
+  8) Nebraska, Avg: 48.80, Low: -47.00, High: 118.00
+  9) Pennsylvania, Avg: 48.80, Low: -42.00, High: 111.00
+ 10) Wyoming, Avg: 42.00, Low: -66.00, High: 115.00
+ 11) Vermont, Avg: 42.90, Low: -50.00, High: 105.00
+ 12) Louisiana, Avg: 66.40, Low: -16.00, High: 114.00
+ 13) North Dakota, Avg: 40.40, Low: -60.00, High: 121.00
+ 14) Connecticut, Avg: 49.00, Low: -32.00, High: 106.00
+ 15) Kansas, Avg: 54.30, Low: -40.00, High: 121.00
+ 16) Colorado, Avg: 45.10, Low: -61.00, High: 118.00
+ 17) Arkansas, Avg: 60.30, Low: -29.00, High: 120.00
+ 18) Ohio, Avg: 50.70, Low: -39.00, High: 113.00
+ 19) New Jersey, Avg: 43.80, Low: -34.00, High: 110.00
+ 20) Wisconsin, Avg: 43.10, Low: -55.00, High: 114.00
+ 21) South Dakota, Avg: 45.20, Low: -58.00, High: 120.00
+ 22) Virginia, Avg: 55.10, Low: -30.00, High: 110.00
+ 23) Indiana, Avg: 47.80, Low: -36.00, High: 116.00
+ 24) New York, Avg: 45.40, Low: -52.00, High: 108.00
+ 25) North Carolina, Avg: 59.00, Low: -34.00, High: 110.00
+ 26) Unused
+ 27) Unused
+ 28) Oregon, Avg: 48.40, Low: -54.00, High: 119.00
+ 29) Unused
+ 30) Maryland, Avg: 54.20, Low: -40.00, High: 109.00
+ 31) Utah, Avg: 48.60, Low: -69.00, High: 117.00
+ 32) Illinois, Avg: 51.70, Low: -36.00, High: 117.00
+ 33) South Carolina, Avg: 62.40, Low: -19.00, High: 111.00
+ 34) Texas, Avg: 64.80, Low: -23.00, High: 120.00
+ 35) Iowa, Avg: 44.40, Low: -47.00, High: 118.00
+ 36) Florida, Avg: 70.70, Low: -2.00, High: 109.00
+ 37) California, Avg: 59.40, Low: -45.00, High: 134.00
+ 38) Unused
+ 39) Unused
+ 40) Unused
+ 41) Unused
+ 42) Georgia, Avg: 63.50, Low: -17.00, High: 112.00
+ 43) Kentucky, Avg: 55.60, Low: -37.00, High: 114.00
+ 44) Mississippi, Avg: 54.50, Low: -19.00, High: 115.00
+ 45) Massachusetts, Avg: 41.00, Low: -35.00, High: 107.00
+ 46) Unused
+ 47) Unused
+ 48) Unused
+ 49) Montana, Avg: 42.70, Low: -70.00, High: 117.00
+ 50) Unused
+ 51) Washington, Avg: 48.30, Low: -48.00, High: 118.00
+ 52) Alaska, Avg: 62.80, Low: -80.00, High: 100.00
+ 53) Unused
+ 54) New Hampshire, Avg: 49.90, Low: -47.00, High: 106.00
+ 55) Arizona, Avg: 60.40, Low: -40.00, High: 128.00
+ 56) Idaho, Avg: 51.80, Low: -60.00, High: 118.00
+ 57) Missouri, Avg: 63.40, Low: -40.00, High: 118.00
+ 58) Oklahoma, Avg: 59.60, Low: -27.00, High: 120.00
+ 59) Unused
+ 60) Unused
+ 61) Unused
+ 62) Rhode Island, Avg: 50.10, Low: -25.00, High: 104.00
+ 63) Maine, Avg: 47.90, Low: -50.00, High: 105.00
+ 64) Michigan, Avg: 44.40, Low: -51.00, High: 112.00
+ 65) Hawaii, Avg: 70.00, Low: 12.00, High: 100.00
+ 66) Unused
+ 67) Nevada, Avg: 53.40, Low: -50.00, High: 125.00
+
+
+Hash Table Status: DDDDDDUDDDDDDDDDDDDDDDDDDUUDUDDDDDDDDUUUUDDDDUUUDUDDUDDDDDUUUDDDDUD
+D => Data, U => Unused
+
+         Items in Hash Table: 50
+     Minimum contiguous bins: 1
+     Maximum contiguous bins: 18
+        Number of empty bins: 17
+
+
+Finding Selected States ----------------------------------
+
+Indices probed: 54
+Found: Arizona, Avg: 60.40, Low: -40.00, High: 128.00
+
+Indices probed: 33, 34
+Found: Iowa, Avg: 44.40, Low: -47.00, High: 118.00
+
+Indices probed: 4
+Found: Minnesota, Avg: 41.20, Low: -60.00, High: 114.00
+
+
+Removing Selected States ----------------------------------
+
+Indices probed: 32, 33
+---Removed: Texas, Avg: 64.80, Low: -23.00, High: 120.00
+
+Indices probed: 5
+---Removed: New Mexico, Avg: 52.70, Low: -50.00, High: 122.00
+
+Indices probed: 53, 54, 57, 62, 2, 11, 22, 35, 50
+---Removed: Washington, Avg: 48.30, Low: -48.00, High: 118.00
+
+Indices probed: 20, 21, 24, 29
+---Removed: Maryland, Avg: 54.20, Low: -40.00, High: 109.00
+
+Indices probed: 35
+---Removed: Florida, Avg: 70.70, Low: -2.00, High: 109.00
+
+Indices probed: 8, 9, 12, 17, 24, 33, 44, 57, 5, 22, 41, 62, 18, 43, 3, 32, 63, 29, 64, 34, 6, 47, 23, 1, 48, 30, 14, 0, 55, 45, 37, 31, 27, 25, 25, 27, 31, 37, 45, 55, 0, 14, 30, 48, 1, 23, 47, 6, 34, 64, 29, 63, 32, 3, 43, 18, 62, 41, 22, 5, 57, 44, 33, 24, 17, 12, 9, 8
+---Failed to remove Quebec
+
+HASH TABLE ARRAY DUMP:
+  1) Tennessee, Avg: 57.60, Low: -32.00, High: 113.00
+  2) Alabama, Avg: 26.60, Low: -27.00, High: 112.00
+  3) Delaware, Avg: 55.30, Low: -17.00, High: 110.00
+  4) West Virginia, Avg: 51.80, Low: -37.00, High: 112.00
+  5) Minnesota, Avg: 41.20, Low: -60.00, High: 114.00
+  6) Unused
+  7) Unused
+  8) Nebraska, Avg: 48.80, Low: -47.00, High: 118.00
+  9) Pennsylvania, Avg: 48.80, Low: -42.00, High: 111.00
+ 10) Wyoming, Avg: 42.00, Low: -66.00, High: 115.00
+ 11) Vermont, Avg: 42.90, Low: -50.00, High: 105.00
+ 12) Louisiana, Avg: 66.40, Low: -16.00, High: 114.00
+ 13) North Dakota, Avg: 40.40, Low: -60.00, High: 121.00
+ 14) Connecticut, Avg: 49.00, Low: -32.00, High: 106.00
+ 15) Kansas, Avg: 54.30, Low: -40.00, High: 121.00
+ 16) Colorado, Avg: 45.10, Low: -61.00, High: 118.00
+ 17) Arkansas, Avg: 60.30, Low: -29.00, High: 120.00
+ 18) Ohio, Avg: 50.70, Low: -39.00, High: 113.00
+ 19) New Jersey, Avg: 43.80, Low: -34.00, High: 110.00
+ 20) Wisconsin, Avg: 43.10, Low: -55.00, High: 114.00
+ 21) South Dakota, Avg: 45.20, Low: -58.00, High: 120.00
+ 22) Virginia, Avg: 55.10, Low: -30.00, High: 110.00
+ 23) Indiana, Avg: 47.80, Low: -36.00, High: 116.00
+ 24) New York, Avg: 45.40, Low: -52.00, High: 108.00
+ 25) North Carolina, Avg: 59.00, Low: -34.00, High: 110.00
+ 26) Unused
+ 27) Unused
+ 28) Oregon, Avg: 48.40, Low: -54.00, High: 119.00
+ 29) Unused
+ 30) Unused
+ 31) Utah, Avg: 48.60, Low: -69.00, High: 117.00
+ 32) Illinois, Avg: 51.70, Low: -36.00, High: 117.00
+ 33) South Carolina, Avg: 62.40, Low: -19.00, High: 111.00
+ 34) Unused
+ 35) Iowa, Avg: 44.40, Low: -47.00, High: 118.00
+ 36) Unused
+ 37) California, Avg: 59.40, Low: -45.00, High: 134.00
+ 38) Unused
+ 39) Unused
+ 40) Unused
+ 41) Unused
+ 42) Georgia, Avg: 63.50, Low: -17.00, High: 112.00
+ 43) Kentucky, Avg: 55.60, Low: -37.00, High: 114.00
+ 44) Mississippi, Avg: 54.50, Low: -19.00, High: 115.00
+ 45) Massachusetts, Avg: 41.00, Low: -35.00, High: 107.00
+ 46) Unused
+ 47) Unused
+ 48) Unused
+ 49) Montana, Avg: 42.70, Low: -70.00, High: 117.00
+ 50) Unused
+ 51) Unused
+ 52) Alaska, Avg: 62.80, Low: -80.00, High: 100.00
+ 53) Unused
+ 54) New Hampshire, Avg: 49.90, Low: -47.00, High: 106.00
+ 55) Arizona, Avg: 60.40, Low: -40.00, High: 128.00
+ 56) Idaho, Avg: 51.80, Low: -60.00, High: 118.00
+ 57) Missouri, Avg: 63.40, Low: -40.00, High: 118.00
+ 58) Oklahoma, Avg: 59.60, Low: -27.00, High: 120.00
+ 59) Unused
+ 60) Unused
+ 61) Unused
+ 62) Rhode Island, Avg: 50.10, Low: -25.00, High: 104.00
+ 63) Maine, Avg: 47.90, Low: -50.00, High: 105.00
+ 64) Michigan, Avg: 44.40, Low: -51.00, High: 112.00
+ 65) Hawaii, Avg: 70.00, Low: 12.00, High: 100.00
+ 66) Unused
+ 67) Nevada, Avg: 53.40, Low: -50.00, High: 125.00
+
+
+Hash Table Status: DDDDDUUDDDDDDDDDDDDDDDDDDUUDUUDDDUDUDUUUUDDDDUUUDUUDUDDDDDUUUDDDDUD
+D => Data, U => Unused
+
+         Items in Hash Table: 45
+     Minimum contiguous bins: 1
+     Maximum contiguous bins: 18
+        Number of empty bins: 22
+
+End Program

@@ -1,0 +1,241 @@
+Iterator Test Program
+=====================
+
+Setting values at front -----------------------------------
+
+Inserting Johnson, Robert
+
+Iterator Display:
+Left side of iterator-> [ Johnson, Robert, 603667, M, 2.8441 ] <-Right side of iterator
+
+Inserting Elliot, Cayley
+
+Iterator Display:
+Left side of iterator-> [ Elliot, Cayley, 135658, M, 2.9788 ];
+                        Johnson, Robert, 603667, M, 2.8441 <-Right side of iterator
+
+Inserting Sanchez, Susan
+
+Iterator Display:
+Left side of iterator-> [ Sanchez, Susan, 154838, F, 2.0632 ];
+                        Elliot, Cayley, 135658, M, 2.9788;
+                          Johnson, Robert, 603667, M, 2.8441 <-Right side of iterator
+
+Inserting Deangelis, Shawna
+
+Iterator Display:
+Left side of iterator-> [ Deangelis, Shawna, 764050, F, 2.2033 ];
+                        Sanchez, Susan, 154838, F, 2.0632;
+                          Elliot, Cayley, 135658, M, 2.9788;
+                            Johnson, Robert, 603667, M, 2.8441 <-Right side of iterator
+
+Inserting Hack, Jacque
+
+Iterator Display:
+Left side of iterator-> [ Hack, Jacque, 641605, F, 3.6343 ];
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441 <-Right side of iterator
+
+Setting values at end -------------------------------------
+
+Inserting Becker, Anna
+
+Iterator Display:
+Left side of iterator-> [ Hack, Jacque, 641605, F, 3.6343 ];
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731 <-Right side of iterator
+
+Inserting Bolling, Mohammad
+
+Iterator Display:
+Left side of iterator-> [ Hack, Jacque, 641605, F, 3.6343 ];
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352 <-Right side of iterator
+
+Inserting Nishimura, Erica
+
+Iterator Display:
+Left side of iterator-> [ Hack, Jacque, 641605, F, 3.6343 ];
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352;
+                                    Nishimura, Erica, 729129, F, 2.2064 <-Right side of iterator
+
+Inserting Nethercott, Michael
+
+Iterator Display:
+Left side of iterator-> [ Hack, Jacque, 641605, F, 3.6343 ];
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352;
+                                    Nishimura, Erica, 729129, F, 2.2064;
+                                      Nethercott, Michael, 812517, M, 3.4304 <-Right side of iterator
+
+Inserting Medrano-Pacheco, Rachel
+
+Iterator Display:
+Left side of iterator-> [ Hack, Jacque, 641605, F, 3.6343 ];
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352;
+                                    Nishimura, Erica, 729129, F, 2.2064;
+                                      Nethercott, Michael, 812517, M, 3.4304;
+                                        Medrano-Pacheco, Rachel, 285416, F, 3.8692 <-Right side of iterator
+
+Moving right/next -----------------------------------------
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        [ Deangelis, Shawna, 764050, F, 2.2033 ];
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352;
+                                    Nishimura, Erica, 729129, F, 2.2064;
+                                      Nethercott, Michael, 812517, M, 3.4304;
+                                        Medrano-Pacheco, Rachel, 285416, F, 3.8692 <-Right side of iterator
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          [ Sanchez, Susan, 154838, F, 2.0632 ];
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352;
+                                    Nishimura, Erica, 729129, F, 2.2064;
+                                      Nethercott, Michael, 812517, M, 3.4304;
+                                        Medrano-Pacheco, Rachel, 285416, F, 3.8692 <-Right side of iterator
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            [ Elliot, Cayley, 135658, M, 2.9788 ];
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352;
+                                    Nishimura, Erica, 729129, F, 2.2064;
+                                      Nethercott, Michael, 812517, M, 3.4304;
+                                        Medrano-Pacheco, Rachel, 285416, F, 3.8692 <-Right side of iterator
+
+Setting to Last -------------------------------------------
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352;
+                                    Nishimura, Erica, 729129, F, 2.2064;
+                                      Nethercott, Michael, 812517, M, 3.4304;
+                                        [ Medrano-Pacheco, Rachel, 285416, F, 3.8692 ] <-Right side of iterator
+
+Moving left/prev ------------------------------------------
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352;
+                                    Nishimura, Erica, 729129, F, 2.2064;
+                                      [ Nethercott, Michael, 812517, M, 3.4304 ];
+                                        Medrano-Pacheco, Rachel, 285416, F, 3.8692 <-Right side of iterator
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  Bolling, Mohammad, 419808, M, 2.1352;
+                                    [ Nishimura, Erica, 729129, F, 2.2064 ];
+                                      Nethercott, Michael, 812517, M, 3.4304;
+                                        Medrano-Pacheco, Rachel, 285416, F, 3.8692 <-Right side of iterator
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  [ Bolling, Mohammad, 419808, M, 2.1352 ];
+                                    Nishimura, Erica, 729129, F, 2.2064;
+                                      Nethercott, Michael, 812517, M, 3.4304;
+                                        Medrano-Pacheco, Rachel, 285416, F, 3.8692 <-Right side of iterator
+
+Removing some students ------------------------------------
+
+Removing: Bolling, Mohammad
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  [ Nishimura, Erica, 729129, F, 2.2064 ];
+                                    Nethercott, Michael, 812517, M, 3.4304;
+                                      Medrano-Pacheco, Rachel, 285416, F, 3.8692 <-Right side of iterator
+
+Removing: Nishimura, Erica
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  [ Nethercott, Michael, 812517, M, 3.4304 ];
+                                    Medrano-Pacheco, Rachel, 285416, F, 3.8692 <-Right side of iterator
+
+Removing: Nethercott, Michael
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                Becker, Anna, 716502, F, 2.8731;
+                                  [ Medrano-Pacheco, Rachel, 285416, F, 3.8692 ] <-Right side of iterator
+
+Removing: Medrano-Pacheco, Rachel
+
+Iterator Display:
+Left side of iterator-> Hack, Jacque, 641605, F, 3.6343;
+                        Deangelis, Shawna, 764050, F, 2.2033;
+                          Sanchez, Susan, 154838, F, 2.0632;
+                            Elliot, Cayley, 135658, M, 2.9788;
+                              Johnson, Robert, 603667, M, 2.8441;
+                                [ Becker, Anna, 716502, F, 2.8731 ] <-Right side of iterator
+
+End Program

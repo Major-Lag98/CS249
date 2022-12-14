@@ -1,0 +1,53 @@
+Rubric - PA03
+
+Program Operations: /5
+=======================
+Program builds correctly, no errors or warnings: /3
+Program runs correctly: /2
+
+functions, etc. /60
+=============
+
+addItem  /4
+
+copySet  /4
+
+deleteItem  /4
+
+displaySet  /4
+
+findIntersection  /4
+
+findUnion  /4
+
+getRandBetween - provided
+
+initializeSet  /4
+
+isInSet  /4
+
+isSubSetOf  /4
+
+runMerge  /4
+
+runMergeSort  /4
+
+runMergeSortHelper  /4
+
+runPartition  /4
+
+runQuickSort  /4
+
+runQuickSortHelper  /4
+
+swapValues - provided 
+
+All other specifications followed: /5
+=====================================
+- correct file upload
+- correct method names, variable names, etc.
+- appropriate use of constant values
+
+General Usage Rubric reductions
+===============================
+- see GUR document

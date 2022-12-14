@@ -1,0 +1,58 @@
+Rubric - PA05
+
+Program Operations: +5
+======================
+Program builds correctly, no errors or warnings: /3
+Program runs correctly:  /2
+
+Queue Operations:  /48
+=============================================
+
+clearQueue  /4
+
+CheckQueueForResize  /4
+
+copyQueueString  /4
+
+createStringArray  /4
+
+deleteQueueStringArray  /4
+
+dequeue  /4
+
+displayQueue  /4
+
+enqueue  /4
+
+incrementQueueIndex  /4
+
+initializeQueue  /4
+
+PeekQueueFront  /4
+
+printQueueChars  /4
+
+
+Stack Operations:  /12
+=============================================
+All other supporting functions must be completed
+to earn the following credit
+- they are copied from Queue and renamed
+
+peekStackTop  /4
+
+pop  /4
+
+push  /4
+
+
+All other specifications followed: +5
+=====================================
+- correct file upload
+- correct method names, variable names, etc.
+- appropriate use of constant (final) value
+
+General Usage Rubric reductions
+===============================
+see GUR document
+

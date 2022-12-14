@@ -1,0 +1,54 @@
+Rubric - PA11
+
+Program Operations: +7
+======================
+Program builds correctly, no errors or warnings: /4
+Program runs correctly:  /3
+
+Queue Operations:  /68
+=============================================
+
+addItemFromData  /4
+
+addItemFromStruct  /4
+
+clearHashTable  /4
+
+compareStates  /4
+
+copyString  /4
+
+dataToString  /4
+
+displayHashTable  /4
+
+findItem  /4
+
+findItemIndex  /4
+
+getHashIndex  /4
+
+getStringLength  /4
+
+initializeHeap  /4
+
+removeState  /4
+
+setEmptyHeapNode  /4
+
+setHeapNodeFromData  /4
+
+setHeapNodeFromStruct  /4
+
+toPower  /4
+
+All other specifications followed: +5
+=====================================
+- correct file upload
+- correct method names, variable names, etc.
+- appropriate use of constant value
+
+General Usage Rubric reductions
+===============================
+see GUR document
+

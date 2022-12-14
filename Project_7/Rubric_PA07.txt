@@ -1,0 +1,66 @@
+Rubric - PA07
+
+Program Operations: +4
+======================
+Program builds correctly, no errors or warnings: /4
+Program runs correctly:  /2
+
+Queue Operations:  /63
+=============================================
+
+clearIterator  /3
+
+copyIterator  /3
+
+copyStudentData  /3
+
+createNodeFromStruct  /3
+
+displayIterator  /3
+
+getPtrBeforeCurrent  /3
+
+getValueAtCurrent  /3
+
+hasNext  /3
+
+hasPrev  /3
+[one line of code]
+
+initializeIterator  /3
+[one line of code]
+
+insertAtCurrent  /3
+
+insertAtEnd  /3
+
+insertAtFront  /3
+
+isEmpty  /3
+[one line of code]
+
+moveNext  /3
+
+movePrev  /3
+
+removeAtCurrent  /3
+
+setEmptyStudentData  /3
+[one line of code]
+
+setStudentData  /3
+
+setToFirst  /3
+
+setToLast  /3
+
+All other specifications followed: +3
+=====================================
+- correct file upload
+- correct method names, variable names, etc.
+- appropriate use of constant value
+
+General Usage Rubric reductions
+===============================
+see GUR document
+

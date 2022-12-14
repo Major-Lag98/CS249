@@ -1,0 +1,29 @@
+CC = gcc
+DEBUG = -g
+CFLAGS = -Wall -c $(DEBUG)
+LFLAGS = -Wall $(DEBUG)
+
+Project_3 : SetUtilitiesFour.o RB_Utility.o RB_MainDriver.o Console_IO_Utility.o CellUtility.o
+	$(CC) $(LFLAGS) SetUtilitiesFour.o RB_Utility.o RB_MainDriver.o Console_IO_Utility.o CellUtility.o -o Project_4
+
+RB_MainDriver.o : RB_MainDriver.c StandardConstants.h Console_IO_Utility.h RB_Utility.h
+	$(CC) $(CFLAGS) RB_MainDriver.c
+
+SetUtilitiesFour.o : SetUtilitiesFour.c SetUtilitiesFour.h
+	$(CC) $(CFLAGS) SetUtilitiesFour.c
+
+RB_Utility.o : RB_Utility.c RB_Utility.h
+	$(CC) $(CFLAGS)  RB_Utility.c
+
+Console_IO_Utility.o : Console_IO_Utility.c Console_IO_Utility.h
+	$(CC) $(CFLAGS) Console_IO_Utility.c
+
+CellUtility.o : CellUtility.c CellUtility.h
+	$(CC) $(CFLAGS) CellUtility.c
+
+File_Input_Utility.o : File_Input_Utility.c File_Input_Utility.h
+	$(CC) $(CFLAGS) File_Input_Utility.c
+
+clean:
+	\rm *.o Project_3
+

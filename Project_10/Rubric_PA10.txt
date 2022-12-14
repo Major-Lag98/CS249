@@ -1,0 +1,41 @@
+Rubric - PA10
+
+Program Operations: +5
+======================
+Program builds correctly, no errors or warnings: /3
+Program runs correctly:  /2
+
+Queue Operations:  /50
+=============================================
+
+addHeapItem  /5
+
+bubbleUpArrayHeap  /5
+
+checkForResize  /5
+
+clearHeap  /5
+
+initializeHeap  /5
+
+isEmpty  /5
+
+removeItem  /5
+
+setDisplayFlag  /5
+
+showArray  /5
+
+trickleDownArrayHeap  /5
+
+
+All other specifications followed: +5
+=====================================
+- correct file upload
+- correct method names, variable names, etc.
+- appropriate use of constant value
+
+General Usage Rubric reductions
+===============================
+see GUR document
+

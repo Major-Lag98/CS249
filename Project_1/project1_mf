@@ -1,0 +1,17 @@
+CC = gcc
+DEBUG = -g
+CFLAGS = -Wall -c $(DEBUG)
+LFLAGS = -Wall $(DEBUG)
+
+Project_1 : SetUtilities.o PA01_MainDriver.o
+	$(CC) $(LFLAGS) SetUtilities.o PA01_MainDriver.o -o Project_1
+
+PA01_MainDriver.o : PA01_MainDriver.c SetUtilities.h
+	$(CC) $(CFLAGS) PA01_MainDriver.c
+
+SetUtilities.o : SetUtilities.c SetUtilities.h
+	$(CC) $(CFLAGS) SetUtilities.c
+
+clean:
+	\rm *.o Project_1
+

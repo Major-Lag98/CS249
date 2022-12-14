@@ -1,0 +1,38 @@
+/*
+Name: runShellsSort
+Process: sorts state data using Shell's sort algorithm
+Function input/parameters: state array (StateType []), size (int)                           
+Function output/parameters: none
+Function output/returned: none
+Device input/file: none
+Device output/monitor: none
+Dependencies: compareStates
+*/
+void runShellsSort( StateType stateArray[], int size )
+   {
+    int gap, gapPassIndex, insertionIndex;
+    StateType tempItem;
+    
+    for( gap = size / 2; gap > 0; gap /= 2 )
+       {
+        for( gapPassIndex = gap; gapPassIndex < size; gapPassIndex++ )
+           {
+            tempItem = stateArray[ gapPassIndex ];
+
+            insertionIndex = gapPassIndex;
+
+            while( insertionIndex >= gap 
+                    && compareStates( stateArray[ insertionIndex - gap], 
+                                                                tempItem ) > 0 ) 
+               {
+                stateArray[ insertionIndex ] 
+                                       = stateArray[ insertionIndex - gap ];
+               
+                insertionIndex -= gap;
+               }  // end search loop
+
+            stateArray[ insertionIndex ] = tempItem;
+           }  // end list loop
+       
+       }  // end gap size setting loop   
+   }

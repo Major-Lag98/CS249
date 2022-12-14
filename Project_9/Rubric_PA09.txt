@@ -1,0 +1,59 @@
+Rubric - PA09
+
+Program Operations: +6
+======================
+Program builds correctly, no errors or warnings: /3
+Program runs correctly:  /3
+
+Queue Operations:  /54
+=============================================
+
+clearTree  /3
+
+compareRoomNumbers  /3
+
+copyString  /3
+
+copyTree  /3
+
+createTreeNodeFromData  /3
+
+createTreeNodeFromNode  /3
+[one line of code]
+
+displayChars  /3
+
+findBalanceFactore  /3
+
+findMax  /3
+
+findTreeHeight  /3
+
+initializeTree  /3
+
+inOrderDisplay  /3
+
+insert  /3
+
+isDigit  /3
+[one line of code]
+
+isEmpty  /3
+[one line of code]
+
+rotateLLeft  /3
+
+rotateRight  /3
+
+search  /3
+
+All other specifications followed: +5
+=====================================
+- correct file upload
+- correct method names, variable names, etc.
+- appropriate use of constant value
+
+General Usage Rubric reductions
+===============================
+see GUR document
+

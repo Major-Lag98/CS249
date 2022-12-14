@@ -1,0 +1,298 @@
+Patient Queue/Heap Test
+=======================
+
+Adding new patient: Johnson, Robert
+
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+
+
+Adding new patient: Elliott, Cayley
+   - Bubble up:
+     - Swapping parent: Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+       with child: Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+
+
+Adding new patient: Reyes, Connor
+   - Bubble up:
+     - Swapping parent: Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+       with child: Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+
+
+Adding new patient: Sanchez, Susan
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+
+
+Adding new patient: Penn, Frederick
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+
+
+Adding new patient: Deangelis, Shawna
+   - Bubble up:
+     - Swapping parent: Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+       with child: Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+
+
+Adding new patient: Shafer, Tristan
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+
+
+Adding new patient: Ruan, Francisco
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+
+
+Adding new patient: Werner, Riley
+   - Bubble up:
+     - Swapping parent: Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+       with child: Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+   - Bubble up:
+     - Swapping parent: Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+       with child: Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+
+
+Adding new patient: Davis, Glen-Andrew
+   - Bubble up:
+     - Swapping parent: Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+       with child: Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+   - Bubble up:
+     - Swapping parent: Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+       with child: Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+
+
+Adding new patient: Thomas, Sena
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+Name: Thomas, Sena, Priority: 4, Time in: 19:58:59
+
+
+Adding new patient: Nash, Tim
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+Name: Thomas, Sena, Priority: 4, Time in: 19:58:59
+Name: Nash, Tim, Priority: 7, Time in: 19:59:00
+
+
+Adding new patient: Hack, Jacque
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+Name: Thomas, Sena, Priority: 4, Time in: 19:58:59
+Name: Nash, Tim, Priority: 7, Time in: 19:59:00
+Name: Hack, Jacque, Priority: 6, Time in: 19:59:01
+
+
+Adding new patient: Ortega, Jane
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+Name: Thomas, Sena, Priority: 4, Time in: 19:58:59
+Name: Nash, Tim, Priority: 7, Time in: 19:59:00
+Name: Hack, Jacque, Priority: 6, Time in: 19:59:01
+Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+
+
+Adding new patient: Catania, DeMarco
+
+Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+Name: Thomas, Sena, Priority: 4, Time in: 19:58:59
+Name: Nash, Tim, Priority: 7, Time in: 19:59:00
+Name: Hack, Jacque, Priority: 6, Time in: 19:59:01
+Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+
+
+Removing patient: Name: Reyes, Connor, Priority: 10, Time in: 19:58:52
+   - Trickle down swap:
+     - moving down parent: Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+     - moving up right child: Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+   - Trickle down swap:
+     - moving down parent: Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+     - moving up left child: Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+   - Trickle down swap:
+     - moving down parent: Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+     - moving up left child: Name: Nash, Tim, Priority: 7, Time in: 19:59:00
+
+Removing patient: Name: Deangelis, Shawna, Priority: 10, Time in: 19:58:54
+   - Trickle down swap:
+     - moving down parent: Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+     - moving up left child: Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+   - Trickle down swap:
+     - moving down parent: Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+     - moving up right child: Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+   - Trickle down swap:
+     - moving down parent: Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+     - moving up right child: Name: Thomas, Sena, Priority: 4, Time in: 19:58:59
+
+Removing patient: Name: Davis, Glen-Andrew, Priority: 9, Time in: 19:58:59
+
+Removing patient: Name: Hack, Jacque, Priority: 6, Time in: 19:59:01
+   - Trickle down swap:
+     - moving down parent: Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+     - moving up right child: Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+   - Trickle down swap:
+     - moving down parent: Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+     - moving up right child: Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+
+Removing patient: Name: Elliott, Cayley, Priority: 7, Time in: 19:58:51
+   - Trickle down swap:
+     - moving down parent: Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+     - moving up right child: Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+   - Trickle down swap:
+     - moving down parent: Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+     - moving up left child: Name: Nash, Tim, Priority: 7, Time in: 19:59:00
+
+Removing patient: Name: Shafer, Tristan, Priority: 7, Time in: 19:58:55
+   - Trickle down swap:
+     - moving down parent: Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+     - moving up right child: Name: Nash, Tim, Priority: 7, Time in: 19:59:00
+
+Removing patient: Name: Nash, Tim, Priority: 7, Time in: 19:59:00
+   - Trickle down swap:
+     - moving down parent: Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+     - moving up left child: Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+   - Trickle down swap:
+     - moving down parent: Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+     - moving up right child: Name: Thomas, Sena, Priority: 4, Time in: 19:58:59
+
+Removing patient: Name: Werner, Riley, Priority: 5, Time in: 19:58:57
+   - Trickle down swap:
+     - moving down parent: Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+     - moving up left child: Name: Thomas, Sena, Priority: 4, Time in: 19:58:59
+   - Trickle down swap:
+     - moving down parent: Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+     - moving up left child: Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+
+Removing patient: Name: Thomas, Sena, Priority: 4, Time in: 19:58:59
+   - Trickle down swap:
+     - moving down parent: Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+     - moving up left child: Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+   - Trickle down swap:
+     - moving down parent: Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+     - moving up right child: Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+
+Removing patient: Name: Johnson, Robert, Priority: 3, Time in: 19:58:50
+   - Trickle down swap:
+     - moving down parent: Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+     - moving up left child: Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+   - Trickle down swap:
+     - moving down parent: Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+     - moving up left child: Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+
+Removing patient: Name: Sanchez, Susan, Priority: 3, Time in: 19:58:53
+   - Trickle down swap:
+     - moving down parent: Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+     - moving up right child: Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+
+Removing patient: Name: Penn, Frederick, Priority: 3, Time in: 19:58:54
+   - Trickle down swap:
+     - moving down parent: Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+     - moving up left child: Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+
+Removing patient: Name: Ruan, Francisco, Priority: 3, Time in: 19:58:56
+
+Removing patient: Name: Catania, DeMarco, Priority: 2, Time in: 19:59:03
+
+Removing patient: Name: Ortega, Jane, Priority: 1, Time in: 19:59:02
+
+End Program

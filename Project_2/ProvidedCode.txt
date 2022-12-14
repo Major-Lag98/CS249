@@ -1,0 +1,42 @@
+Provided Code
+Make sure these functions are placed in alphabetical order within the others
+
+/*
+Name: getRandBetween
+Process: generates and returns a random value
+         between two given values, inclusive
+Function Input/Parameters: low, high limits (int)
+Function Output/Parameters: none
+Function Output/Returned: random value as specified
+Device Input/---: none
+Device Output/---: none
+Dependencies: rand
+*/
+int getRandBetween( int lowVal, int highVal )
+   {
+    int range = highVal - lowVal + 1;
+
+    return rand() % range + lowVal;
+   }
+
+/*
+Name: swapValues
+Process: swaps data between two set data quantities (integers)
+Function input/parameters: two value pointers (int *),
+                           function must be called with addresses
+Function output/parameters: none
+Function output/returned: none
+Device input/---: none
+Device output/---: none
+Dependencies: none
+*/
+void swapValues( int *one, int *other )
+   {
+    int temp = *one;
+
+    *one = *other;
+
+    *other = temp;
+   }
+
+
